@@ -1,0 +1,36 @@
+* {
+    text-align: left;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    flex: 1;
+    height 100px;
+    padding: 5px;
+}
+
+.border-middle {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.border-under {
+    border-bottom: 2px solid grey;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+#about-me {
+    
+}
