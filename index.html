@@ -2,12 +2,13 @@
 <head>
     <title>Kyle Harrer's Portfolio</title>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container-flex">
-        <h1 class="item">Kyle Harrer</h1>
+        <h1 id="name-header" class="item">Kyle Harrer</h1>
         <section class="container-flex"> <!-- Flex container for the nav box-->
             <h3 class="item">About</h3>
             <h3 class="item border-middle">Profile</h3>
@@ -16,19 +17,22 @@
     </div>
     <div class="container-flex">
         <section class="container-flex-col">
-            <h2 class="item border-under">About Me</h2>
-            <p class="item">this is where I will write about myself</p>
+            <h2 class="item-about border-under">About Me</h2>
+            <section class="container-flex">
+                <img id="profile-pic" class="item" src="assets/images/profile_pic_square.jpg" alt="Photo of Kyle and his son">
+                <p class="item">this is where I will write about myself</p>
+            </section>
         </section>
         <section class="container-flex-col">
-            <h2 class="item border-under">Connect with me</h2>
+            <h2 class="item border-under">Connect with Me</h2>
             <section class="container-flex">
                 <img class="item icon" src="assets/images/github_icon.png" alt="Github">
                 <img class="item icon" src="assets/images/linkedin_icon.png" alt="LinkedIn">
-                <img class="item icon" src="assets/images/stackoverflow_icon.png" alt="StackOverflow" style="padding:5px">
+                <img class="item icon" src="assets/images/stackoverflow_icon.png" alt="StackOverflow">
             </section>
         </section>
     </div>
     <div>
-        <p>&copy; Kyle Harrer 2018</p>
+        <p id="footer">&copy; Kyle Harrer 2018</p>
     </div>
 </body>
