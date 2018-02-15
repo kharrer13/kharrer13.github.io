@@ -34,9 +34,6 @@ body {
     max-height: 80px;
     padding: 0px;
 }
-#about-me {
-    
-}
 
 #profile-pic {
     max-width: 150px;
@@ -49,13 +46,39 @@ body {
     border: solid 2px #cccccc;
 }
 
+}
+
+#header-space {
+    max-width: 80%;
+}
+
 #name-header {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
+    width: 100px;
+    margin: 0px 19px;
+}
+
+#about-me {
+    border: solid 1px #cccccc;
+    max-width: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#connect-with-me {
+    border: solid 1px #cccccc;
+    max-width: 40%;
+    margin-left: 10px;
 }
 
 #footer {
     text-align: center;
+    color: #cccccc;
+    font-size: .5em;
     background-color: #666666;
+    padding: 1em;
+    margin-top: auto;
 }
