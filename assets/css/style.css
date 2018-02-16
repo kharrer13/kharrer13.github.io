@@ -2,6 +2,12 @@ body {
     background-image: url("../images/concrete-texture.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+h2 {
+    color: #4aaaa5;
+    font-size: 2em;
+}
+
 .container-flex {
     display: flex;
 }
@@ -58,6 +64,7 @@ body {
 .content-wrapper {
     max-width: 800px;
     margin: 0 auto;
+    padding: 1em;
 }
 
 #header {
@@ -74,11 +81,13 @@ body {
 
 #about-me {
     border: solid 1px #cccccc;
-    max-width: 50%;
+    max-width: 60%;
+    background-color: #ffffff;
 }
 
 #connect-with-me {
     border: solid 1px #cccccc;
+    background-color: #ffffff;
 }
 
 #footer {
