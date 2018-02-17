@@ -53,6 +53,13 @@ h2 {
     max-height: 80px;
 }
 
+.portfolio-pic {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 1em;
+    align-content: left;
+}
+
 #profile-pic {
     max-width: 150px;
     max-height: 150px;
@@ -96,6 +103,7 @@ h2 {
     background-color: #ffffff;
     padding: 1em;
     margin-top: 1em;
+    max-height: 7em;
 }
 
 #footer {
