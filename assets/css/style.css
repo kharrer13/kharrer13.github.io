@@ -110,3 +110,7 @@ h2 {
     bottom: 0px;
     width: 100%;
 }
+
+#message {
+    max-width: 90%;
+}
