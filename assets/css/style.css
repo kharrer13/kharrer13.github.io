@@ -10,6 +10,7 @@ h2 {
 
 .container-flex {
     display: flex;
+    /*padding: 1em;*/
 }
 
 #header .container-flex {
@@ -31,6 +32,7 @@ h2 {
 
 .item {
     flex: 1;
+    padding: 1em;
 }
 
 .item-about {
@@ -51,20 +53,17 @@ h2 {
     max-height: 80px;
 }
 
-#stackoverflow {
-    padding: 3px;
-}
-
 #profile-pic {
     max-width: 150px;
     max-height: 150px;
     float: left;
+    padding: 1em, 1em, 1em, 0em;
 }
 
 .content-wrapper {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 1em;
+
 }
 
 #header {
@@ -72,9 +71,14 @@ h2 {
     border: solid 2px #cccccc;
 }
 
+#sub-header {
+    padding: 0em;
+}
+
 #name-header {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
     background-color: #4aaaa5;
     padding: 1em;
 }
@@ -83,11 +87,15 @@ h2 {
     border: solid 1px #cccccc;
     max-width: 60%;
     background-color: #ffffff;
+    padding: 1em;
+    margin-top: 1em;
 }
 
 #connect-with-me {
     border: solid 1px #cccccc;
     background-color: #ffffff;
+    padding: 1em;
+    margin-top: 1em;
 }
 
 #footer {
@@ -98,4 +106,7 @@ h2 {
     padding: 1em;
     border-top: solid 2px #4aaaa5;
     margin-top: auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
